@@ -10,7 +10,7 @@ function Home() {
     setLocation(event.target.value);
   }
   return (
-    <div className="p-10 bg-gray-800 items-center gap-4 flex flex-col justify-center">
+    <div className="p-10 items-center gap-4 flex flex-col justify-center">
       <TiWeatherPartlySunny size={50} />
       <h1 className="text-3xl font-semibold">Welcome to Weather App</h1>
 
